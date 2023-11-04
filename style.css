@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./image/bg-weather.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  height: 100vh;
+  color: white;
+}
+.container {
+  padding-left: 117px;
+
+  margin: auto;
+  /* padding-top: 37px; */
+  display: flex;
+  justify-content: space-between;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 469px;
+}
+.logo {
+  padding-top: 87px;
+  /* background-image: url("./image/logo\ \(6\).svg");
+background-repeat: no-repeat;
+max-width:89px;
+background-size: cover; */
+}
+
+.input_2 {
+  display: flex;
+  border-bottom: 1px solid;
+  width: 371px;
+  justify-content: space-between;
+}
+input {
+  padding: 14px 0px;
+  width: 300px;
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.region {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.region h1 {
+  padding-right: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 143px;
+  font-weight: 400;
+  letter-spacing: -11.44px;
+}
+.region h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 400;
+}
+.region p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+.weather_about {
+  height: 100vh;
+  backdrop-filter: blur(9.5px);
+  padding: 54px 35px;
+}
+
+.weather_about h5 {
+  padding-top: 41px;
+  padding-bottom: 52px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+.weather_about h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+ul {
+  max-width: 354px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  /* padding-right: 195px; */
+}
+li span {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+li div {
+  display: flex;
+  gap: 26px;
+}
+.span_bottom {
+  border-bottom: 1px solid #fff;
+  width: 371px;
+  padding-top: 85px;
+  margin-bottom: 50px;
+}

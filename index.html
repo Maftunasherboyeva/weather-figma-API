@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./media.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="location">
+          <div class="logo">
+            <img src="./image/logo (6).svg" alt="" />
+          </div>
+
+          <div class="region">
+            <div>
+              <h1 id="currentLocationTemperature">16°</h1>
+            </div>
+
+            <div style="padding-right: 18px">
+              <h2 id="locationName">LONDON</h2>
+              <p id="localtime">06:09 - Monday, 9 Sep ‘23</p>
+            </div>
+
+            <div>
+              <img id="icon" src="./image/outline.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="weather_about">
+          <div class="input_2">
+            <input id="input" type="text" placeholder="Search Location..." />
+            <button><img src="./image/fa_search.svg" alt="" /></button>
+          </div>
+
+          <h5>Weather Details...</h5>
+          <h1>thunderstorm with light drizzle</h1>
+          <ul>
+            <li>
+              <p>Temp max</p>
+              <div><span>19°</span> <img src="./image/temp1.svg" alt="" /></div>
+            </li>
+            <li>
+              <p>Temp min</p>
+              <div><span>15°</span> <img src="./image/temp2.svg" alt="" /></div>
+            </li>
+            <li>
+              <p>Humadity</p>
+              <div>
+                <span>58%</span> <img src="./image/tomchi.svg" alt="" />
+              </div>
+            </li>
+            <li>
+              <p>Cloudy</p>
+              <div>
+                <span>86%</span> <img src="./image/cloudy.svg" alt="" />
+              </div>
+            </li>
+            <li>
+              <p>Wind</p>
+              <div>
+                <span>5km/h</span> <img src="./image/shamol.svg" alt="" />
+              </div>
+            </li>
+          </ul>
+          <div class="span_bottom"></div>
+        </div>
+
+        <!--         
+            <h1 id="currentLocationTemperature">16 </h1>
+            <img id="weatherIcon" src="" alt="">
+            <span id="locationName">london</span> -->
+      </div>
+    </header>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!-- /// weatherIcon.setAttribute("scr", data.current.condition.icon); -->
