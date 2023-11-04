@@ -21,7 +21,6 @@
     width: 60px;
   }
   .logo {
-    /* background-image: url("./image/logo2.svg"); */
     padding: 25px 39px;
     display: flex;
     gap: 200px;
@@ -54,73 +53,69 @@
   .location {
     gap: 200px;
   }
- 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 468px) {
   body {
     background-image: url("./image/bg-weather\ \(3\).png");
   }
   .logo img {
     width: 39px;
   }
-  .logo{
+  .logo {
     padding: 19px 22px;
   }
-  .input_2{
+  .input_2 {
     width: 125px;
     top: -339px;
     right: 63px;
   }
-  input{
+  input {
     font-size: 12px;
     padding: 0;
     width: 100px;
   }
-  button img{
+  button img {
     width: 12px;
   }
-  .region{
+  .region {
     padding-bottom: 30px;
   }
-  .region h1{
-
+  .region h1 {
     font-size: 64px;
   }
-  .region h2{
-
+  .region h2 {
     font-size: 30px;
   }
-  .region p{
-
+  .region p {
     font-size: 10px;
   }
-  #icon{
+  #icon {
     width: 40px;
   }
-  .region{
+  .region {
     padding-left: 22px;
   }
-  .weather_about{
+  .weather_about {
     padding: 0px 45px;
   }
-  .weather_about h5{
+  .weather_about h5 {
     padding-top: 55px;
     padding-bottom: 37px;
     font-size: 14px;
   }
-  .weather_about h1{
+  .weather_about h1 {
     font-size: 14px;
   }
-  ul li p{
+  ul li p {
     font-size: 14px;
   }
-  ul li span{
+  ul li span {
     font-size: 14px;
   }
-  li img{
+  li img {
     width: 11px;
   }
-  .span_bottom{
+  .span_bottom {
     width: 268px;
   }
 }

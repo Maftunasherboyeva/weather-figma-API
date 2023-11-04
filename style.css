@@ -15,9 +15,7 @@ body {
 }
 .container {
   padding-left: 117px;
-
   margin: auto;
-  /* padding-top: 37px; */
   display: flex;
   justify-content: space-between;
 }
@@ -28,10 +26,6 @@ body {
 }
 .logo {
   padding-top: 87px;
-  /* background-image: url("./image/logo\ \(6\).svg");
-background-repeat: no-repeat;
-max-width:89px;
-background-size: cover; */
 }
 
 .input_2 {
